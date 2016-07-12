@@ -407,16 +407,16 @@ for(x=0;x<4;x++)
 
 ##Resources
 
-- [Rainbowduino v3.0 Software Library]()
-- [Rainbowduino3.0 Library for Arduino 1.0]()
-- [Complete schematic in PDF]()
-- [Eagle CAD files]()
-- [Rainbow cube with Blurtooth Setch]()
-- [MY9221 Datasheet]()
-- [8mm RGB LED Datasheet]()
-- [RainbowBluetooth Android Apk]()
-- [Rainbowduino Semi Automater installtion Package Beta (For Windows)]()
-- [mtXcontrol by rngtng Beta(For MAC)]()
+- [Rainbowduino v3.0 Software Library](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/Rainbowduino3.0_Library.zip)
+- [Rainbowduino3.0 Library for Arduino 1.0](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/Rainbowduino_for_Arduino1.0.zip)
+- [Complete schematic in PDF](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/Rainbow_Cube_Kit_-_RGB_4x4x4_LED_schematic_board.pdf)
+- [Eagle CAD files](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/RainbowCube_v1.1_Panel_v1.2_Eaglefiles.zip)
+- [Rainbow cube with Blurtooth Setch](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/RainbowWithBluetooth.zip)
+- [MY9221 Datasheet](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/MY9221_DS_1.0.pdf)
+- [8mm RGB LED Datasheet](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/8mmLED.pdf)
+- [RainbowBluetooth Android Apk](https://github.com/SeeedDocument/Rainbow_Cube/blob/master/resource/RainbowBluetooth.zip)
+- [Rainbowduino Semi Automater installtion Package Beta (For Windows)](http://diymagicmirror.com/files/Rainbowduino_setup_v1_1.exe)
+- [mtXcontrol by rngtng Beta(For MAC)](https://github.com/rngtng/mtXcontrol/downloads)
 
 
 ##Is this page helpful
