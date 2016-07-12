@@ -1,8 +1,8 @@
-#Lipo Rider Pro
+#Rainbow Cube
 ----
-##Introduction
 
-![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/images/LiPo_Rider_Pro.jpg)
+
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/Rainbow_Cube.png)
 
 In this box, you’ll find everything you need to build a ready to shine Rainbow Cube! 
 Have some fun and start creating a masterpiece today with this 4x4x4 RGB LED cube kit from Seeed Studio:
@@ -21,97 +21,79 @@ Seeed Studio has made a video to show how to use Rainbow Cube and program to it.
 - Diaphanous Acrylic sheet makes the shining LEDs looks so cool
 - Programmable property let the Rainbow Cube shining in your style
 
-Here is the link in YouTobe: http://youtu.be/v44i73zmwA4
 
 **Great thanks to Riley Porter @Synthetos, for the excellent job of Acrylic Case design.**
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/item_detail.html?p_id=992)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/item_detail.html?p_id=998)
+
+# Rainbow Cube Kit (Assembled)
+----
+**Rainbow Cube** is a 3D RGB LED Cube useful for creating colorful design. The 3D Cube is artistically crafted with sixty-four 8mm RGB LEDs arranged in a 4 x 4 x 4 manner. Rainbow Cube can be used to create many beautiful visual effects with A Rainbowduino. The Rainbow Cube comes with an inbuilt 3.3V / 1 Amp LDO useful for powering the independently. A XBee compatible socket is provided as well, this can be used to connect Rainbowduino with a PC or an Arduino wirelessly.
+
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/Rainbow_Cube.jpg)
+
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/Rainbow_Cube_Assembled.jpg)
 
 ##Features
 
-- Maximum 1A load output
-- Battery and Solar panel connector is JST 2.0
-- Stable 5V USB power supply regardless of source
-- Charge/Recharge algorithms built into chip
-- Charge Lithium Polymer Battery through solar power or USB
-- Stable supply voltage through either lithium battery or USB
-- 2 x USB ports let you program your kit while charging your Lithium battery
-- LED indications for battery full or charging states
-- Scalable to multiple lithium batteries and large/multiple solar panels through simple end-user modifications
-- 4 green LED instruct quantity of electricity of lithium battery
+- 8mm RGB diffused LEDs.
+- 4 x 4 x 4 arrangement
+- XBee compatible socket
+- Provides a 3.3V/1 Ampere LDO for power the Cube with unregulated DC 6-9V. Useful when not powered by USB.
+- Provides 8 Red, 8 Green and 8 Blue common cathode pins along with 8 Vcc pins in a 2 x 16 header pin.
+	- Controllable with a 8 x 8R,8G,8B multiplexed PWM LED driver like Rainbowduino.
 
 ##Application Ideas
 
-- Green Power and backup supply for distributed outdoor sensor network
-- Charger for Lithium batteries
-- Charger for mobile phone
+- Colorful LED display : Mix various intensities of RED, GREEN and BLUE channels to produce different colors
+- Bright mood Lamp / Night lamp
+- Useful for artistic application.
 
-## Cautions
 
-- The LiPo Rider Pro has different connectors from LiPo Rider v1.0, the former is JST 2.0 and latter is JST 2.54.
-- Live exposed electronic components
-- The board may get hot when supplying large loads
-- Potential short circuit or electric shock, especially if device gets wet when placed outdoors for solar power collection
+## Specification
 
-##Dimensions
+- Operating Voltage
+	- 3.3V
+- LEDs
+	- 8mm common anode RGB LED.
+	- 4 Leads (Blue-shortest lead,Green, Anode-longest lead, Red).
+	- Max forward current IF = 20mA.
 
-The dimensions of LiPo Rider Pro is like the [6A Lithium Polymer Battery](https://www.seeedstudio.com/item_detail.html?p_id=602)
+## Pin definition and Rating
+All pins are accessible from the Panel board show below. 
 
-![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/images/Liporiderprod.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/Rainbow_Cube_Panel_Bottom.jpg)
 
-###Specification
-|Items                    |Min      |Norm       |Max      |
-|-------------------------|---------|-----------|---------|
-|V`in` Solar              |4.8V     |5.0V       |6.5V(10s)|
-|I`charge` (R`Iset`=3.9kΩ)|400mA	|500mA	    |600mA    |
-|I`load`                  |0mA		|           |1000mA   |
-|V`batt`(Rx=0Ω)           |4.2V                           |
-|V`source`USB	          |5.0V                           |
-|V`destination`USB	      |5.0V                           |
+- Rainbow Cube provides 2 x 16 pin header for connecting to RGB LEDs driver board like Rainbowduino.
 
-###Pin definition and Rating
-####Pin Instruction and LED Statement
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/Rainbow_pin_diagram.png)
 
-|CH pin level(Red LED state)|OK pin level(Green LED state)|Statements|
-|---------------------------|-----------------------------|----------|
-|low level(on)	            |high level(off)	          |Charging  |
-|high level(off)	        |low level(last on)	          |Complete  |
-|pulse signal(flash)	    |pulse signal(on)	          |The battery isn't exist|
-|high level(off)	        |high level(off)	          |Two situations :
--      Input voltage lower than gate voltage
--      The input voltage lower than battery voltage|
+- xBee Socket
 
-####LED Battery Indicator
+![](https://raw.githubusercontent.com/SeeedDocument/Rainbow_Cube/master/images/XBee_PinOut.jpeg)
 
-The LiPo Rider Pro has four LED battery indicators like the cell phone,and you can see the battery power by just pressing the button K2.
+- DC Jack Pin
+	- Middle Pin VIN (6-9DCV)
+	- Side barrel: GND
+- 4 pin Green terminal.
+	- 2 GND pins, 2 VIN pins
 
-LED battery indicator parameter:
+##Mechanical Dimensions
+Assembled cube is of approx. of 10cm (l) X 10cm (b) X 12cm (h) dimension.
 
-|Numbers of lighting up     |Quantity of electricity      |
-|---------------------------|-----------------------------|
-|4	                        |90~100%                      |
-|3	                        |60~90%                       |
-|2	                        |30~60%                       |
-|1	                        |10~30%                       |
-|0	                        |0~10%                        |
+##Understanding the Schematic
+To easily understand the working of Rainbow Cube, a very simplified schematic is presented below. In essence, 64 RGB LEDs are arranged in a form consisting of 8 common anodes(positive pins) and 8 common cathodes(gtound pins) for each color Red, Green and Blue.
+The complete schematic of RGB Cube is represented in a 2D RGB LED Matrix form below.
+Numbers 1 - 32 indicates the pin number of the 2x16 pin header shown above.
 
-##Usage
-###Example
-####Outdoor Sensor Device Power Supply
-One important application of the Lipo Rider Pro board is as an affordable power supply for outdoor sensors. The outdoor sensor device will be powered by the lithium battery supplemented by the solar panel. Please note that it is not recommended to run the outdoor sensor ONLY on solar power, as this may vary during the day and may cause the sensor to reset / power down unexpectedly. In this case, the device is running in “USB Mode”.
-
-If a firmware reprogram for the outdoor sensor device is required, simple connect the mini USB port to your PC which will put the device under “Program Mode” as explained above.
-
-Larger/multiple batteries and/or solar panels can be used, but only with end-user modifications.
-![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/images/Lipo-Rider-pro.JPG)
-####Charge Lithium Polymer Battery through solar power
-![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/images/LiPo_Rider_Pro1.jpg)
+	
 
 ##Resources
 
-* **【PDF】**[Schmatics](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2.pdf)
-* **【Datasheet】**[DSE-CN3065](https://github.com/SeeedDocument/Lipo_Rider_Pro/blob/master/resource/DSE-CN3065.pdf) 
-* **【Eagle】**[Eagle File](https://github.com/SeeedDocument/Lipo_Rider_Pro/blob/master/resource/Lipo_Rider_Pro_v0.9b.rar)
+* [Schmatics](https://github.com/SeeedDocument/CAN_BUS_Shield/raw/master/resource/CAN-BUS_Shield_v1.2.pdf)
+* [DSE-CN3065](https://github.com/SeeedDocument/Lipo_Rider_Pro/blob/master/resource/DSE-CN3065.pdf) 
+* [Eagle File](https://github.com/SeeedDocument/Lipo_Rider_Pro/blob/master/resource/Lipo_Rider_Pro_v0.9b.rar)
 
 ##Is this page helpful
+
 <iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/TGBWXK7" frameborder="0"></iframe>
