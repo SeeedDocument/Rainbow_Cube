@@ -4,14 +4,26 @@
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/images/LiPo_Rider_Pro.jpg)
 
-Power your favourite electronic kit with green energy! The LiPo Rider Pro is a promotion of Lipo Rider.It supply heavier load output(1A peak) than Lipo Rider.
+In this box, you’ll find everything you need to build a ready to shine Rainbow Cube! 
+Have some fun and start creating a masterpiece today with this 4x4x4 RGB LED cube kit from Seeed Studio:
+The “Rainbow Cube – Ready to Shine” requires no soldering and comes pre-assembled with a Rainbowduino (Arduino-compatible) LED driver controller. Just plug it in to your PC or Mac, grab a copy of the free design software, and you’ll discover just how easy it is to program this spectacular device and see the results in real time.
 
-The LiPo Rider Pro board allows you ride the solar wave to run your favourite 5V device. The LiPo Rider Pro board is the ideal green power solution for your outdoor sensor design. Attach the LiPo Rider Pro board to your sensor board and it can run on solar power forever! It can also be used to charge mobile phone.
-The LiPo Rider Pro is extremely affordable and easy to use. No programming is required. Plug it in and it works. The internal charger IC handles all the power flow between the various components.
+The Pack consist of:
 
-In case solar power is not sufficient, the mini USB port allows you to charge your lithium battery through USB. It can also be used to program your kit without detaching the LiPo Rider Pro board.
-The LiPo Rider Pro can be purchased as a separate board or as a kit (LiPo Rider Pro + Lithium Battery + Solar Panel) from Seeed Studio.
+- 1 x Rainbow Cube Kit ( Assembled )
+- 1 x Rainbowduino v3.0
+- 1 x Power adaptor
+- 1 x USB cable
 
+Seeed Studio has made a video to show how to use Rainbow Cube and program to it. Watch the video, you'll know how cool this product is.
+
+- Curing program makes Rainbow Cube Kit PnP
+- Diaphanous Acrylic sheet makes the shining LEDs looks so cool
+- Programmable property let the Rainbow Cube shining in your style
+
+Here is the link in YouTobe: http://youtu.be/v44i73zmwA4
+
+**Great thanks to Riley Porter @Synthetos, for the excellent job of Acrylic Case design.**
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/item_detail.html?p_id=992)
 
